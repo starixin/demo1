@@ -1,0 +1,65 @@
+* {
+				margin: 0;
+				padding: 0;
+			}
+
+			#form {
+				width: 2863px;
+				height: 1441px;
+				font-size: 30px;
+				/* border: 1px solid #f00; */
+				font-family: "microsoft yahei";
+				background: url(../img/form_bg.jpg) no-repeat;
+				background-size: 100% 100%;
+				padding-left: 1430px;
+				padding-top: 274px;
+				box-sizing: border-box;
+			}
+
+			#form .register {
+				width: 1265px;
+				height: 1022px;
+				/* border: 1px solid #00f; */
+			}
+
+			#form .register h2 {
+				margin-bottom: 20px;
+				text-align: center;
+			}
+
+			#form .register p {
+				width: 100%;
+				text-indent: 20px;
+				margin-bottom: 30px;
+			}
+
+			#form .register p.indent {
+				text-indent: 50px;
+			}
+
+			#form .register form>input {
+				width: 200px;
+				height: 60px;
+				font-size: 30px;
+				color: #fff;
+				cursor: pointer;
+				border: 1px solid #D4CDBA;
+				background-color: #93B518;
+				border-radius: 5px;
+				margin-left: 160px;
+			}
+
+
+			#form .register p input {
+				width: 410px;
+				height: 50px;
+				font-size: 30px;
+				padding-left: 5px;
+				box-sizing: border-box;
+				border: 1px solid #D4CDBA;
+			}
+
+			#form .register p.small input {
+				width: 160px;
+				margin-bottom: 60px;
+			}

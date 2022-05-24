@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>表单5.20</title>
+		<link rel="stylesheet" type="text/css" href="css/form.css"/>
+	</head>
+
+	<body>
+		<div id="form">
+			<div class="register">
+				<h2>传智学员信息登记表</h2>
+				<form action="#" method="get">
+					<p>
+						<span>用户登录名:</span>
+						<input type="email" name="userName" id="userName"
+							placeholder="myemail@163.com" pattern="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" readonly="readonly"/>&nbsp;(不能修改，只能查看)
+					</p>
+					<p class="indent">
+						<span>真实姓名:</span>
+						<input type="text" name="name" id="name" placeholder="例如：王明" pattern="^[\u4e00-\u9fa5]{0,}$" required="required"/>&nbsp;(必须填写，只能输入汉字)
+					</p>
+					<p class="indent">
+						<span>真实年龄:</span>
+						<input type="number" name="age" id="age" placeholder="18" min="1" pattern="^[0-9]*$" required="required"/>&nbsp;(必须填写)
+					</p>
+					<p class="indent">
+						<span>出生日期:</span>
+						<input type="date" name="date" id="date" required="required"/>&nbsp;(必须填写)
+					</p>
+					<p class="indent">
+						<span>电子邮箱:</span>
+						<input type="email" name="email" id="email" placeholder="123456@126.com" pattern="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required="required"/>&nbsp;(必须填写)
+					</p>
+					<p class="indent">
+						<span>身份证号:</span>
+						<input type="text" name="idCard" id="idCard" pattern="^([0-9]){7,18}(x|X)?$" required="required"/>&nbsp;(必须填写，能够以数字、字母x结尾的短身份证号)
+					</p>
+					<p class="indent">
+						<span>手机号码:</span>
+						<input type="tel" name="phone" id="phone" pattern="^(?:(?:\+|00)86)?1\d{10}$" required="required"/>&nbsp;(必须填写)
+					</p>
+					<p class="indent">
+						<span>个人主页:</span>
+						<input type="url" name="page" id="page" placeholder="http://www.itcast.cn" required="required" />&nbsp;(请选择网址)
+					</p>
+					<p class="indent small">
+						<span>幸运颜色:</span>
+						<input type="color" name="color" id="color" value="#FED000" />&nbsp;(请选择你喜欢的颜色)
+					</p>
+					<input type="submit" id="submit" name="submit" value="提交" />
+					<input type="reset" id="reset" name="reset" value="重置" />
+				</form>
+			</div>
+		</div>
+	</body>
+
+</html>
